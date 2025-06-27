@@ -23,127 +23,31 @@
 
 ## 🧠 Descripción
 
-**Tu Vianda** es una aplicación web para la gestión de ventas, pedidos, clientes y comidas de un negocio de viandas.  
-Incluye autenticación de usuarios, control de stock, historial de ventas y más.
+**Tu Vianda** es una aplicación web full stack desarrollada para facilitar la **gestión integral de un negocio de viandas**.  
+Permite manejar usuarios, pedidos, clientes, comidas y ventas de forma intuitiva y eficaz.
 
 ---
 
-## 🛠 Tecnologías
+## ⚙️ Tecnologías
 
-- **Frontend:** React 19, Vite, React Router DOM, Axios, React Toastify  
-- **Backend:** Node.js, Express, MySQL, JWT, bcryptjs  
-- **Base de datos:** MySQL
+### 🖥️ Frontend
+- React 19 + Vite
+- React Router DOM
+- Axios
+- React Toastify
+- Tailwind CSS
 
----
+### 🧠 Backend
+- Node.js
+- Express.js
+- JWT (autenticación)
+- bcryptjs (encriptación)
+- MySQL
 
-## 🗂️ Estructura del Proyecto
-
-TU-VIANDA-REACT/
-│
-├── BACKEND/
-│ ├── controllers/
-│ ├── middlewares/
-│ ├── routes/
-│ ├── .env
-│ ├── db.js
-│ ├── index.js
-│ └── package.json
-│
-└── FRONTEND/
-└── vianda-app/
-├── src/
-├── index.html
-├── package.json
-└── ...
-
-yaml
-Copiar
-Editar
+### 💾 Base de Datos
+- MySQL
 
 ---
 
-## ⚙️ Instalación
+## 📁 Estructura del Proyecto
 
-### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/tuusuario/tuvianda.git
-cd tuvianda/TU-VIANDA-REACT
-2. Configurar el Backend
-bash
-Copiar
-Editar
-cd BACKEND
-npm install
-Renombrá .env.example a .env y completá los datos de conexión a MySQL y clave JWT.
-
-Asegurate de tener tu base de datos creada con sus tablas.
-
-3. Configurar el Frontend
-bash
-Copiar
-Editar
-cd ../FRONTEND/vianda-app
-npm install
-▶️ Uso
-Iniciar el Backend
-bash
-Copiar
-Editar
-cd BACKEND
-node index.js
-Iniciar el Frontend
-bash
-Copiar
-Editar
-cd ../FRONTEND/vianda-app
-npm run dev
-Accedé desde 👉 http://localhost:5173
-
-🔐 Variables de Entorno
-En el archivo .env dentro de BACKEND:
-
-env
-Copiar
-Editar
-DB_HOST=localhost
-DB_USER=tu_usuario
-DB_PASSWORD=tu_password
-DB_NAME=tuvianda
-DB_PORT=3306
-JWT_SECRET=tu_clave_secreta
-🚫 ¡No subas este archivo a GitHub!
-
-✅ Funcionalidades
-🔐 Login seguro con JWT
-
-🧑‍🍳 ABM de comidas y clientes
-
-📦 Gestión de pedidos y ventas
-
-📈 Historial de ventas filtrable por fecha
-
-📱 Diseño responsive
-
-🔁 Scripts útiles
-Backend
-bash
-Copiar
-Editar
-npm install     # Instala dependencias
-node index.js   # Inicia el servidor
-Frontend
-bash
-Copiar
-Editar
-npm install     # Instala dependencias
-npm run dev     # Ejecuta modo desarrollo
-👤 Autor
-Thiago Robles - Programador Universitario
-
-🧾 Licencia
-MIT
-
-💬 ¿Te gustó este proyecto?
-¡Dale una estrella ⭐, compartilo o escribime si querés colaborar!
-Tu Vianda, el sabor del código hecho gestión 💻🍲
