@@ -36,13 +36,11 @@ Permite manejar usuarios, pedidos, clientes, comidas y ventas de forma intuitiva
 - React Router DOM
 - Axios
 - React Toastify
-- Tailwind CSS
+
 
 ### 🧠 Backend
 - Node.js
 - Express.js
-- JWT (autenticación)
-- bcryptjs (encriptación)
 - MySQL
 
 ### 💾 Base de Datos
